@@ -1,47 +1,72 @@
-# Agência cronos adm
 
-![image](https://user-images.githubusercontent.com/75625651/147997365-0d731a46-2f18-4529-beae-13b21fcddaee.png)
+# Getting Started with Create React App
 
-# Nome Do Projeto
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-O nosso desafio é dar continuidade ao desenvolvimento para criar funcionalidades como editar e deletar serviços da lista (o famoso CRUD). Utilizamos no projeto JavaScript, html, css, bootstrap e react.js. 
+## Available Scripts
 
-### Função 01:
-- Ao clicar no botão adicionar novo, deve exibir o formulário de cadastro de serviço;
-![image](https://user-images.githubusercontent.com/75625651/147997605-ccbe5dc1-7403-4d9f-86cf-3cec788ab290.png)
+In the project directory, you can run:
 
-### Função 02:
-- Ao clicar no botão editar, deve exibir o formulário preenchido com os dados do serviço escolhido e guardar as alterações quando clicar no botão salvar.
+### `npm start`
 
-### Função 03:
-- Ao clicar no botão excluir, deve remover o serviço escolhido.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Função 04:
-- Ao carregar a página deve exibir a lista de serviços dinamicamente.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Função 05:
-- Renderizar a página utilizando React, utilizamos o comando yarn start para redenerizar a página, caso use npm, para usar yarn siga as instruções abaixo:
+### `npm test`
 
-1º instale no CMD - npm install --global yarn
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2º - yarn add react-dom
+### `npm run build`
 
-3º - yarn add @types/react-dom
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4º - yarn start 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Feito Com:
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/pt-br/windows/get-windows-10)
-[![IDE](https://img.shields.io/badge/Visual_studio_code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-[![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 🤝 Colaboradores
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Pessoas que contribuíram para este projeto:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Quele Andrade, Gustavo e Leonardo
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
