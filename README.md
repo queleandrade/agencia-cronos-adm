@@ -3,7 +3,7 @@
 
 ![image](https://user-images.githubusercontent.com/75625651/147997365-0d731a46-2f18-4529-beae-13b21fcddaee.png)
 
-# Nome Do Projeto
+# Agência Cronos
 
 O nosso desafio é dar continuidade ao desenvolvimento para criar funcionalidades como editar e deletar serviços da lista (o famoso CRUD). Utilizamos no projeto JavaScript, html, css, bootstrap e react.js. 
 
