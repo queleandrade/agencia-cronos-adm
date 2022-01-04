@@ -73,6 +73,10 @@ function validate() {
     return isValid;
 }
 
+// Para que o form feche ao salvar dados
+$(":submit").on("click", function(){
+    $(".modal").modal('hide');
+});
 
 
 
