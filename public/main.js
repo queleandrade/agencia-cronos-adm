@@ -1,4 +1,6 @@
-var selectedRow = null
+var selectedRow = null;
+
+var randomImage = ["imagens/banner-marketing.png", "imagens/ilustra-banner.png", "imagens/ilustra-team.png", "imagens/ilustra-marketing.png", "imagens/ilustra-team.png", "imagens/ilustra-ux.png", "imagens/ilustra-web.png"];
 
 function onFormSubmit() {
     if (validate()) {
@@ -20,12 +22,14 @@ function readFormData() {
 }
 
 function insertNewRecord(data) {
+    // Para gerar imagem aleatória
+    var randomNum = Math.floor(Math.random() * randomImage.length);
     var table = document.getElementById("employeeList").getElementsByTagName('tbody')[0];
     var newRow = table.insertRow(table.length);
     cell1 = newRow.insertCell(0);
     cell1.innerHTML = data.name;
     cell2 = newRow.insertCell(1);
-    cell2.innerHTML = `<td><img src="imagens/ilustra-team.png" class="img-fluid" /></td>`;
+    cell2.innerHTML = `<td><img src="` + randomImage[randomNum] +`" class="img-fluid" /></td>`;
     cell3 = newRow.insertCell(2);
     cell3.innerHTML = data.description;
     cell4 = newRow.insertCell(3);
@@ -35,7 +39,7 @@ function insertNewRecord(data) {
 
 function resetForm() {
     document.getElementById("name").value = "";
-    // document.getElementById("image").value = "";
+    document.getElementById("image").value = "";
     document.getElementById("description").value = "";
     selectedRow = null;
 }
