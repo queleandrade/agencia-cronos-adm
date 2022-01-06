@@ -45,4 +45,45 @@ O nosso desafio é dar continuidade ao desenvolvimento para criar funcionalidade
 
 Pessoas que contribuíram para este projeto:
 
-- Quele Andrade, Gustavo e Leonardo
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/queleandrade">
+        <img src="https://avatars.githubusercontent.com/u/75625651?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Quele Andrade</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GSTVROLIVEIRA">
+        <img src="https://avatars.githubusercontent.com/u/94142716?v=4" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <sub>
+          <b>Gustavo Ribeiro</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/leomonadas">
+        <img src="https://avatars.githubusercontent.com/u/77860170?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Leonardo Alves</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📝 Atribuições
+
+A partir do CRUD, delimitou-se as atribuições de cada participante do _squad_:
+* Criar - <a href = "https://github.com/GSTVROLIVEIRA">Gustavo Ribeiro </a>
+* Editar - <a href = "https://github.com/leomonadas">Leonardo Alves</a>
+* Deletar - <a href = "https://github.com/queleandrade">Quele Andrade</a>
+* Renderização React - <a href = "https://github.com/queleandrade">Quele Andrade</a>
+* ReadME.md - <a href = "https://github.com/queleandrade">Quele Andrade</a> e <a href = "https://github.com/leomonadas">Leonardo Alves</a>
+
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
